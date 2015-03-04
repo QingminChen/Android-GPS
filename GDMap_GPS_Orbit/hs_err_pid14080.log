@@ -1,0 +1,82 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=14080, tid=12056
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_38-b05
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.13-b02 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000004fb800):  JavaThread "Unknown thread" [_thread_in_vm, id=12056, stack(0x00000000023f0000,0x00000000024f0000)]
+
+Stack: [0x00000000023f0000,0x00000000024f0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000004fb800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=12056, stack(0x00000000023f0000,0x00000000024f0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042f000 	E:\Java\jdk1.6.0_38\bin\javaw.exe
+0x0000000077130000 - 0x00000000772d9000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000076f10000 - 0x000000007702f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd2c0000 - 0x000007fefd32b000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefd910000 - 0x000007fefd9eb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007feff070000 - 0x000007feff10f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefd8f0000 - 0x000007fefd90f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefea10000 - 0x000007fefeb3d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077030000 - 0x000000007712a000 	C:\Windows\system32\USER32.dll
+0x000007fefecc0000 - 0x000007fefed27000 	C:\Windows\system32\GDI32.dll
+0x000007fefeb40000 - 0x000007fefeb4e000 	C:\Windows\system32\LPK.dll
+0x000007feff370000 - 0x000007feff439000 	C:\Windows\system32\USP10.dll
+0x000007fefe850000 - 0x000007fefe87e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefed30000 - 0x000007fefee39000 	C:\Windows\system32\MSCTF.dll
+0x000000006d8c0000 - 0x000000006e07b000 	E:\Java\jdk1.6.0_38\jre\bin\server\jvm.dll
+0x000007fef8c10000 - 0x000007fef8c4b000 	C:\Windows\system32\WINMM.dll
+0x000000006d830000 - 0x000000006d83e000 	E:\Java\jdk1.6.0_38\jre\bin\verify.dll
+0x000000006d450000 - 0x000000006d477000 	E:\Java\jdk1.6.0_38\jre\bin\java.dll
+0x000000006d880000 - 0x000000006d892000 	E:\Java\jdk1.6.0_38\jre\bin\zip.dll
+0x0000000077300000 - 0x0000000077307000 	C:\Windows\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:E:\adt-bundle-windows-x86_64-20130917\adt-bundle-windows-x86_64-20130917\sdk\platforms\android-18\android.jar 
+java_command: com.certusnet.activity.test
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=E:\Java\jdk1.6.0_38
+CLASSPATH=,;E:\Java\jdk1.6.0_38\lib\dt.jar;E:\Java\jdk1.6.0_38\lib\tools.jar
+PATH=E:/Java/jdk1.6.0_38/bin/../jre/bin/server;E:/Java/jdk1.6.0_38/bin/../jre/bin;E:/Java/jdk1.6.0_38/bin/../jre/lib/amd64;E:\Java\jdk1.6.0_38\bin;C:\Windows\system32;E:\apache-maven-3.1.0\bin;E:\ant\apache-ant-1.8.4\bin;E:\ant\apache-ant-1.8.4\lib;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\TortoiseSVN\bin;D:\Program Files (x86)\Rational\Common;D:\Program Files (x86)\Git\cmd;E:\adt-bundle-windows-x86_64-20130917\adt-bundle-windows-x86_64-20130917\sdk\platform-tools;E:\adt-bundle-windows-x86_64-20130917\adt-bundle-windows-x86_64-20130917\eclipse;
+USERNAME=qingmin.chen
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 4184312k(1225108k free), swap 8366764k(2284280k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.13-b02) for windows-amd64 JRE (1.6.0_38-b05), built on Nov 14 2012 00:54:08 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Wed Dec 31 14:22:10 2014
+elapsed time: 0 seconds
+
