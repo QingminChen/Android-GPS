@@ -49,7 +49,7 @@ public class LocationSourceActivity extends RoboActivity implements LocationSour
 	//private MapView mapView;
 	private OnLocationChangedListener mListener;
 	private LocationManagerProxy mAMapLocationManager;
-	private Marker marker;// 定位雷达小图标
+	private Marker marker;// 定位雷达小图标,测试更改的效果
 	private List<LocationPoint> locationPointList = new ArrayList<LocationPoint>();
 	private List<LocationPoint> locationPointListTest = new ArrayList<LocationPoint>();
 	private List<LocationPoint> locationPointListCur = new ArrayList<LocationPoint>();
